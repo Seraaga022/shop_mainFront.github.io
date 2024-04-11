@@ -87,7 +87,13 @@
       @import url("https://fonts.googleapis.com/css2?family=Graduate&family=Kameron:wght@400..700&family=M+PLUS+1+Code:wght@100..700&display=swap");
     </style>
 
-    <base href="https://seraaga022.github.io/shop_mainFront.github.io/" />
+    <script>
+      document.write(
+        '<base href="' +
+          window.location.origin +
+          '/shop_mainFront.github.io/" />'
+      );
+    </script>
 
     <!-- <script
       type="module"
